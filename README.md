@@ -21,3 +21,5 @@ Create your Github PAT (Personal access token) [here](https://github.com/setting
 ![Select user scope](https://github.com/joao-alberto/batch-unfollow/blob/main/assets/user_scope.png?raw=true)
 
 Edit `.env` and add your generated PAT in `GITHUB_API_TOKEN` variable.
+
+Run `deno run --allow-read --allow-net main.js`
